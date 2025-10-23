@@ -417,6 +417,20 @@ const signinSubmitBtn = document.getElementById('signin-btn');
 const formTitle = document.getElementById('form-title');
 const formSubtitle = document.getElementById('form-subtitle');
 
+const express = require("express");
+const mongoose = require("mongoose");
+const bodyParser = require("body-parser");
+const cors = require("cors");
+
+
+
+
+
+
+
+
+
+
 let isPatient = true;
 
 // Initial button and form state

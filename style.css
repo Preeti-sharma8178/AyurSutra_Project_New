@@ -1433,3 +1433,16 @@ body.login-bg {
 .appointment-indicator {
   animation: starPulse 2s ease-in-out infinite;
 }
+
+.user-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #2e7d32; /* green */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
